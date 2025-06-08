@@ -8,11 +8,11 @@ import (
 )
 
 var generateCmd = &cobra.Command{
-	Use:   "generate",
+	Use:   "passgen",
 	Short: "Generate random passwords",
 	Long: `Generate random passwords with cutomizable options.
-For example:
-gocli generate -l 12 -d -s`,
+		For example:
+		gocli passgen -l 12 -d -s`,
 	Run: generatePassword,
 }
 
