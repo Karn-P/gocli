@@ -73,10 +73,10 @@ gocli todo
 
 The tasks will be displayed in a table format:
 
-| ID  | Description      | Completed |
-|-----|------------------|-----------|
-| 1   | Buy groceries    | No        |
-| 2   | Clean the house  | Yes       |
+| ID  | Description      | CreatedAt           | Completed |
+|-----|------------------|---------------------|-----------|
+| 1   | Buy groceries    | 2023-06-15 10:30:45 | No        |
+| 2   | Clean the house  | 2023-06-14 09:15:22 | Yes       |
 
 #### Removing Tasks
 
